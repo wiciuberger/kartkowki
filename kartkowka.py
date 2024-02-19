@@ -1,7 +1,5 @@
 class Uczen:
     liczba_uczniow = 0
-    # Zad1
-    # Dodaj brakującą metodę i wywołaj ją w konstruktorze. Metoda do liczenia średniej.
     def __init__(self, imie, nazwisko) -> None:
         self.imie = imie
         self.nazwisko = nazwisko
@@ -36,32 +34,15 @@ class Uczen:
         self.oceny_mat = szóstki_z_matmy
         self.oceny_ang = szóstki_z_angola
 
+print("==="*10)
+print("==="*10)
 uczen1 = Uczen("Adrianek", "Poniatowski")
+uczen1.inf()
+print("==="*10)
+print("==="*10)
+print("==="*10)
 uczen1.edytuj_imie("Alex")
 uczen1.usun_szóstki([2,3,4,5], [5])
 uczen1.liczba_stworzonych_uczniow()
 uczen1.inf()
-
 print("Liczba stworzonych uczniów:", Uczen.liczba_stworzonych_uczniow())
-
-
-    # Zad2
-    # Dodaj metodę klasową która poda liczbę stworzonych uczniów.
-
-
-
-
-    # Zad3
-    # Dodaj metodę, co pozwoli edytować imię. Zmień imię na Alex.
-
-
-
-
-    # Zad4
-    # Napisz metodę, co kasuje ocenę o podanej wartości.
-    # Za pomocą tej metody usuń wszystkie 6.
-
-
-
-
-# ----------------------------------------------------------------
